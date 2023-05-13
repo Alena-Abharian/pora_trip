@@ -1,0 +1,29 @@
+.hero_img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    max-height: 790px;
+background-color: var(--black-color);
+background-image: url("../image/imgBackground.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+    &_title{
+        width: 692px;
+        color: var(--white-color);
+        @include fonts(80px, 700,1);
+    }
+
+    &_text{
+        color: var(--white-color);
+        @include fonts(19px,500, 1.2);
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+}

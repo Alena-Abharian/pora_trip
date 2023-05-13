@@ -1,0 +1,35 @@
+.about_img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+//   margin-bottom: 100px;
+  max-width: 1920px;
+  max-height: 900px;
+  background-color: var(--white-color);
+  background-image: url("../image/imgMountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.about-text {
+  display: flex;
+  margin-top: 30px;
+
+  &_one {
+    width: 400px;
+    @include fonts(19px, 500, 2.1);
+    margin-right: 30px;
+  }
+
+  &_two {
+    width: 400px;
+    @include fonts(19px, 500, 2.1);
+  }
+}

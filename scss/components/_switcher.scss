@@ -1,0 +1,12 @@
+.switcher {
+  display: flex;
+  color: var(--white-color);
+  @include fonts(16px, 400);
+}
+.switcher-rus {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+.switcher-en {
+}

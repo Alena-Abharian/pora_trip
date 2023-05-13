@@ -1,0 +1,19 @@
+.forma {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &_input {
+    border: 1px solid #808080;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    outline: 0;
+    color: var(--black-color);
+    @include fonts (19px)
+  }
+
+  &_btn {
+    margin-top: 25px;
+  }
+}

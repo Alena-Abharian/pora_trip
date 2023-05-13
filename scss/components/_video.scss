@@ -1,0 +1,40 @@
+.video-one {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.video {
+  position: relative;
+  color: var(--white-color);
+
+  &_content {
+    margin-left: 15px;
+  }
+  &_wrap-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 312px;
+    left: 30px;
+  }
+
+  &_wrap-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+  }
+
+  &_title {
+    @include fonts(20px, 500, 1.2);
+  }
+
+  &_text {
+    @include fonts(14px, 400, 1.2);
+    margin-top: 5px;
+  }
+}
+.video-two {
+}

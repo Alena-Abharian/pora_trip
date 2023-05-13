@@ -1,0 +1,23 @@
+.callBack {
+  display: flex;
+  padding-top: 100px;
+
+  &_wrap{
+     background-color: #F4F9FF;
+     width: 978px;
+     height: 448px;
+  }
+
+  &_content {
+ width: 415px;
+ margin-left: 150px;
+ margin-top: 70px;
+  }
+
+  &_text {
+    @include fonts (16px);
+    color: var(--black-color);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

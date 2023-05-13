@@ -1,0 +1,23 @@
+.achievements{
+display: flex;
+justify-content: start;
+margin-top: 80px;
+
+&_element{
+    &:not(:last-child){
+        margin-right: 40px;
+    }
+}
+}
+
+.element_title{
+ color: var(--accent-color);
+ @include fonts(35px,700,0.8);
+ margin-bottom: 20px;
+}
+
+.element_text{
+    width: 180px;
+    color: var(--black-color);
+    @include fonts(19px)
+}
