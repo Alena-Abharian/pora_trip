@@ -2,12 +2,25 @@
 
     &_list {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
     }
 
+  &_link{
+    cursor: pointer;
+    color: var(--white-color);
+    @include fonts(16px);
+
+    &:hover,
+    &:focus{
+      color: #FF7474;
+    }
+
+    &:active{
+      color: green;
+    }
+  }
+
     &_item {
-      color: var(--white-color);
-      @include fonts(16px);
 
         &:not(:last-child){
             margin-right: 50px;
