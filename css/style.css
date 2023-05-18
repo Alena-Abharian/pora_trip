@@ -236,9 +236,11 @@ h6 {
   grid-row: 2/4;
 }
 
+.insta_link {
+  color: inherit;
+}
 .insta_wrap {
   display: flex;
-  align-items: center;
   margin-top: 35px;
 }
 .insta_text {
@@ -307,7 +309,7 @@ h6 {
   letter-spacing: 0.01em;
 }
 .nav_link:hover, .nav_link:focus {
-  color: #c5c5c5;
+  color: #808080;
 }
 .nav_link:active {
   color: var(--accent-color);
@@ -325,8 +327,17 @@ h6 {
   letter-spacing: 0.01em;
 }
 
-.switcher-rus:not(:last-child) {
+.switcher-lan {
+  cursor: pointer;
+}
+.switcher-lan:not(:last-child) {
   margin-right: 25px;
+}
+.switcher-lan:hover, .switcher-lan:focus {
+  color: #808080;
+}
+.switcher-lan:active {
+  color: var(--accent-color);
 }
 
 .dot {

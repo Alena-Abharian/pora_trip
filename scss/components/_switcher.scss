@@ -2,11 +2,21 @@
   display: flex;
   color: var(--white-color);
   @include fonts(16px, 400);
+
 }
-.switcher-rus {
+.switcher-lan {
+  cursor: pointer;
   &:not(:last-child) {
     margin-right: 25px;
   }
+
+  &:hover,
+  &:focus{
+    color: #808080
+  }
+
+  &:active{
+    color: var(--accent-color);
+  }
 }
-.switcher-en {
-}
+
