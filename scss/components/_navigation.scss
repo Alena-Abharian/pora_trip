@@ -12,11 +12,11 @@
 
     &:hover,
     &:focus{
-      color: #FF7474;
+      color: #c5c5c5;
     }
 
     &:active{
-      color: green;
+      color: var(--accent-color);
     }
   }
 
