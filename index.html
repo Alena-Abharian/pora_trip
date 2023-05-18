@@ -24,10 +24,10 @@
 
         <nav class="nav">
           <ul class="nav_list">
-            <li class="nav_item">Our tours</li>
-            <li class="nav_item">Gallery</li>
-            <li class="nav_item">Travel history</li>
-            <li class="nav_item">Contacts</li>
+            <li class="nav_item"><a class="nav_link" href="#tours">Our tours</a></li>
+            <li class="nav_item"><a class="nav_link" href="#gallery">Gallery</a></li>
+            <li class="nav_item"><a class="nav_link" href="#history">Travel history</a></li>
+            <li class="nav_item"><a class="nav_link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
 
@@ -42,7 +42,6 @@
       </div>
     </header>
 
-    <main>
       <!-- Hero -->
       <section class="container hero">
         <div>
@@ -54,9 +53,15 @@
        
 <div>
   <ul class="video">
-          <li class="video-one">
-            <img src="./image/imgVideo1.jpg" alt="video" width="438" />
-            <dev class="video_wrap-one">
+          <li class="video_one">
+              <div class="video_youtube">
+<!--                  <iframe class="video_youtube-one" src="https://www.youtube.com/embed/JBU6Xe97J9k"-->
+<!--                          title="YouTube video player" frameborder="0"-->
+<!--                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;-->
+<!--                          picture-in-picture; web-share" allowfullscreen>-->
+<!--                  </iframe>-->
+              </div>
+            <div class="video_wrap-one">
               <svg width="38" height="38">
                 <use href="./image/icon.svg#iconPlay"></use>
               </svg>
@@ -64,11 +69,17 @@
                 <p class="video_title">20 km from Gelendzhik</p>
               <p class="video_text">Wonderful collection of rocks</p>
               </div>
-            </dev>
+            </div>
           </li>
-          <li class="video-two">
-            <img src="./image/imgVideo2.jpg" alt="video" width="438" />
-            <dev class="video_wrap-two">
+          <li class="video_two">
+              <div class="video_youtube">
+                  <!--                  <iframe class="video_youtube-one" src="https://www.youtube.com/embed/JBU6Xe97J9k"-->
+                  <!--                          title="YouTube video player" frameborder="0"-->
+                  <!--                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;-->
+                  <!--                          picture-in-picture; web-share" allowfullscreen>-->
+                  <!--                  </iframe>-->
+              </div>
+            <div class="video_wrap-two">
               <svg width="38" height="38">
                 <use href="./image/icon.svg#iconPlay"></use>
               </svg>
@@ -76,23 +87,23 @@
                  <p class="video_title">Northern lights</p>
               <p class="video_text">2 weeks in Finland</p>
               </div>
-             
-            </dev>
+
+            </div>
           </li>
         </ul>
 </div>
         
       </section>
 
-   </div> 
+   </div>
 
-
+   <main>
       <!--About us-->
       <div class="about_img">
         <section class="container">
         <div class="about">
           <div>
-          <h2 class="title">Pora Trip<span class="dot">.</span></h2>
+          <h2 class="title" id="history">Pora Trip<span class="dot">.</span></h2>
           <div class="about-text">
             <p class="about-text_one">
           With love and care we will organize for you a long-awaited vacation in
@@ -155,19 +166,24 @@
         <ul class="gallery_list">
           <li class="gallery_item-1">
             <div class="gallery_content">
-          <h2 class="title">Gallery<span class="dot">.</span></h2>
+          <h2 class="title" id="gallery">Gallery<span class="dot">.</span></h2>
         <p class="gallery_text">
           On every journey a photographer will be with you, he will help take it
           all off
         </p>
-        <div class="insta_wrap">
-          <svg width="25" height="25">
-            <use href="./image/icon.svg#iconInsta"></use>
-          </svg>
-          <p class="insta_text">
-            See more photos on our <span><a class="insta_accent" href="/">Instagram</a></span>
-          </p>
-        </div>
+
+            <a  href="https://www.instagram.com">
+                <div class="insta_wrap">
+                <svg width="25" height="25">
+                <use href="./image/icon.svg#iconInsta"></use>
+            </svg>
+                <p class="insta_text">
+                    See more photos on our <span><a class="insta_accent" href="/">Instagram</a></span>
+                </p>
+                </div>
+            </a>
+
+
       </div>
        </li>
           <li class="gallery_item-2"><img src="./image/imgGallery1.jpg" alt="img" width="100%" height="100%" /></li>
@@ -180,7 +196,7 @@
       </section>
 
       <!--Call Back-->
-      <section class="callBack">
+      <section class="container callBack">
         <div class="photo">
           <p class="photo_count">1/4</p>
           <img src="./image/imgMikli.jpg" alt="photo" width="740" />
@@ -191,7 +207,7 @@
         </div>
         <div class="callBack_wrap">
            <div class="callBack_content">
-            <h2 class="title">Great trip to Mikli Farm<span class="dot">.</span></h2>
+            <h2 class="title" id="tours">Great trip to Mikli Farm<span class="dot">.</span></h2>
         <p class="callBack_text">Leave a request and we will call you back within three minutes</p>
         <form class="forma">
           <input class="forma_input" type="tel" name="phone" placeholder="+1(___) ___-____" />
@@ -205,7 +221,9 @@
 
       <!-- Footer-->
       <div class="footer_img">
+          <h2 id="contacts"></h2>
         <footer class="container footer">
+
           <a href="./index.html">
             <svg width="147" height="43" >
               <use href="./image/icon.svg#iconLogoFooter"></use>
@@ -213,29 +231,39 @@
           </a>
           <ul class="social">
             <li class="social_icon">
-              <svg width="18" height="15">
-                <use href="./image/icon.svg#iconYou"></use>
-              </svg>
+                <a href="https://www.youtube.com/">
+                    <svg width="18" height="15">
+                        <use href="./image/icon.svg#iconYou"></use>
+                    </svg>
+                </a>
             </li>
             <li class="social_icon">
-              <svg width="20" height="13">
-                <use href="./image/icon.svg#iconVK"></use>
-              </svg>
+                <a href="https://vk.com/?lang=en">
+                    <svg width="20" height="13">
+                        <use href="./image/icon.svg#iconVK"></use>
+                    </svg>
+                </a>
+
             </li>
             <li class="social_icon">
-              <svg width="19" height="16">
-                <use href="./image/icon.svg#iconTwit"></use>
-              </svg>
+                <a href="https://twitter.com">
+                    <svg width="19" height="16">
+                        <use href="./image/icon.svg#iconTwit"></use>
+                    </svg>
+                </a>
+
             </li>
             <li class="social_icon">
-              <svg width="11" height="17">
-                <use href="./image/icon.svg#iconFB"></use>
-              </svg>
+                <a href="https://www.facebook.com">
+                    <svg width="11" height="17">
+                        <use href="./image/icon.svg#iconFB"></use>
+                    </svg>
+                </a>
             </li>
           </ul>
         </footer>
       </div>
-      
+
     </main>
   </body>
 </html>
