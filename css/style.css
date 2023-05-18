@@ -374,7 +374,7 @@ h6 {
   position: relative;
   height: 100%;
 }
-.video_youtube-one {
+.video_youtube-player {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -397,7 +397,7 @@ h6 {
 .video_content {
   margin-left: 15px;
 }
-.video_wrap-one {
+.video_wrap-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -411,7 +411,10 @@ h6 {
   width: 438px;
   height: 268px;
 }
-.video_wrap-two {
+.video_two:hover {
+  cursor: pointer;
+}
+.video_wrap-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -431,6 +434,10 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.01em;
   margin-top: 5px;
+}
+
+.hidden {
+  display: none;
 }
 
 .achievements {
