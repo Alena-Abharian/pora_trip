@@ -311,9 +311,6 @@ h6 {
 .nav_link:hover, .nav_link:focus {
   color: #808080;
 }
-.nav_link:active {
-  color: var(--accent-color);
-}
 .nav_item:not(:last-child) {
   margin-right: 50px;
 }
@@ -327,17 +324,18 @@ h6 {
   letter-spacing: 0.01em;
 }
 
-.switcher-lan {
+.switcher-lang {
   cursor: pointer;
 }
-.switcher-lan:not(:last-child) {
+.switcher-lang:not(:last-child) {
   margin-right: 25px;
 }
-.switcher-lan:hover, .switcher-lan:focus {
+.switcher-lang:hover, .switcher-lang:focus {
   color: #808080;
 }
-.switcher-lan:active {
-  color: var(--accent-color);
+
+.lang_active {
+  color: #808080;
 }
 
 .dot {

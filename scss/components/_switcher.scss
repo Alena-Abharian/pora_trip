@@ -2,9 +2,10 @@
   display: flex;
   color: var(--white-color);
   @include fonts(16px, 400);
-
 }
-.switcher-lan {
+
+
+.switcher-lang {
   cursor: pointer;
   &:not(:last-child) {
     margin-right: 25px;
@@ -15,8 +16,8 @@
     color: #808080
   }
 
-  &:active{
-    color: var(--accent-color);
-  }
 }
 
+.lang_active{
+  color: #808080
+}
