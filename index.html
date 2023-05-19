@@ -24,10 +24,10 @@
 
         <nav class="nav">
           <ul class="nav_list">
-            <li class="nav_item"><a class="nav_link" href="#tours">Our tours</a></li>
-            <li class="nav_item"><a class="nav_link" href="#gallery">Gallery</a></li>
-            <li class="nav_item"><a class="nav_link" href="#history">Travel history</a></li>
-            <li class="nav_item"><a class="nav_link" href="#contacts">Contacts</a></li>
+            <li class="nav_item"><a class="nav_link" data-lang="our_tours" href="#tours">Our tours</a></li>
+            <li class="nav_item"><a class="nav_link" data-lang="gallery" href="#gallery">Gallery</a></li>
+            <li class="nav_item"><a class="nav_link" data-lang="travel_history" href="#history">Travel history</a></li>
+            <li class="nav_item"><a class="nav_link" data-lang="contacts" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
 
@@ -45,10 +45,10 @@
       <!-- Hero -->
       <section class="container hero">
         <div>
-        <h1 class="hero_title" data-lang="main_title">It's time to escape from the stuffy metropolis<span class="dot">.</span></h1>
+        <h1 class="hero_title"><span data-lang="main_title">It's time to escape from the stuffy metropolis</span><span class="dot">.</span></h1>
         <p class="hero_text" data-lang="main_text">The worldwide vacation you deserve</p>
 
-        <button class="btn">More details</button>
+        <button class="btn" data-lang="main_btn">More details</button>
         </div>
        
 <div>
@@ -60,8 +60,8 @@
                           <use href="./image/icon.svg#iconPlay"></use>
                       </svg>
                       <div class="video_content">
-                          <p class="video_title">20 km from Gelendzhik</p>
-                          <p class="video_text">Wonderful collection of rocks</p>
+                          <p class="video_title" data-lang="video_title_1">20 km from Gelendzhik</p>
+                          <p class="video_text" data-lang="video_text_1">Wonderful collection of rocks</p>
                       </div>
                   </div>
               </div>
@@ -74,8 +74,8 @@
                           <use href="./image/icon.svg#iconPlay"></use>
                       </svg>
                       <div class="video_content">
-                          <p class="video_title">Northern lights</p>
-                          <p class="video_text">2 weeks in Finland</p>
+                          <p class="video_title" data-lang="video_title_2">Northern lights</p>
+                          <p class="video_text" data-lang="video_text_2">2 weeks in Finland</p>
                       </div>
                   </div>
               </div>
@@ -96,12 +96,12 @@
           <div>
           <h2 class="title" id="history">Pora Trip<span class="dot">.</span></h2>
           <div class="about-text">
-            <p class="about-text_one">
+            <p class="about-text_one" data-lang="about_1">
           With love and care we will organize for you a long-awaited vacation in
           the most interesting corners of the planet. Back in 2008, my wife and
           I for the first time organized a tour for our friends.
         </p>
-        <p class="about-text_two">
+        <p class="about-text_two" data-lang="about_2">
           From that day on, it became a matter of life. Now with us in the team
           there are already 27, and the number of travelers, whom we helped, has
           already exceeded four thousand.
@@ -114,7 +114,7 @@
                     <svg width="80" height="80">
                         <use href="./image/icon.svg#iconPlayRed"></use>
                     </svg>
-                    <p class="btn_play-text">Our story in 90 seconds</p>
+                    <p class="btn_play-text" data-lang="btn_play">Our story in 90 seconds</p>
                 </button>
             </a>
 
@@ -125,28 +125,28 @@
           <li class="achievements_element">
           
               <h3 class="element_title">4670</h3>
-              <p class="element_text">Travelers are already with us</p>
+              <p class="element_text" data-lang="text_1">Travelers are already with us</p>
             
           </li>
 
           <li class="achievements_element">
           
               <h3 class="element_title">65%</h3>
-              <p class="element_text">Our clients come back</p>
+              <p class="element_text" data-lang="text_2">Our clients come back</p>
             
           </li>
 
           <li class="achievements_element">
           
               <h3 class="element_title">148</h3>
-              <p class="element_text">Unusual places to travel</p>
+              <p class="element_text" data-lang="text_3">Unusual places to travel</p>
             
           </li>
 
           <li class="achievements_element">
           
               <h3 class="element_title">15</h3>
-              <p class="element_text">Years we give you new emotions</p>
+              <p class="element_text" data-lang="text_4">Years we give you new emotions</p>
             
           </li>
         </ul>
@@ -160,8 +160,8 @@
         <ul class="gallery_list">
           <li class="gallery_item-1">
             <div class="gallery_content">
-          <h2 class="title" id="gallery">Gallery<span class="dot">.</span></h2>
-        <p class="gallery_text">
+          <h2 class="title" id="gallery"><span data-lang="gallery_title">Gallery</span><span class="dot">.</span></h2>
+        <p class="gallery_text" data-lang="gallery_text">
           On every journey a photographer will be with you, he will help take it
           all off
         </p>
@@ -172,7 +172,8 @@
                 <use href="./image/icon.svg#iconInsta"></use>
             </svg>
                 <p class="insta_text">
-                    See more photos on our <span><a class="insta_accent" href="/">Instagram</a></span>
+                  <span data-lang="insta">See more photos on our</span>
+                    <span><a class="insta_accent" href="/">Instagram</a></span>
                 </p>
                 </div>
             </a>
@@ -195,17 +196,17 @@
           <p class="photo_count">1/4</p>
           <img src="./image/imgMikli.jpg" alt="photo" width="740" />
           <div class="photo_content">
-              <h3 class="photo_title">Lake on Mikli</h3>
-          <p class="photo_text">Heart of Karelia</p>
+              <h3 class="photo_title" data-lang="photo_title">Lake on Mikli</h3>
+          <p class="photo_text" data-lang="photo_text">Heart of Karelia</p>
           </div>
         </div>
         <div class="callBack_wrap">
            <div class="callBack_content">
-            <h2 class="title" id="tours">Great trip to Mikli Farm<span class="dot">.</span></h2>
-        <p class="callBack_text">Leave a request and we will call you back within three minutes</p>
+            <h2 class="title" id="tours"><span data-lang="mikli_title">Great trip to Mikli Farm</span><span class="dot">.</span></h2>
+        <p class="callBack_text" data-lang="mikli_text">Leave a request and we will call you back within three minutes</p>
         <form class="forma">
           <input class="forma_input" type="tel" name="phone" placeholder="+1(___) ___-____" />
-          <button class="forma_btn btn" type="submit">Submit</button>
+          <button class="forma_btn btn" type="submit" data-lang="mikli_btn">Submit</button>
         </form>
         </div>
         </div>

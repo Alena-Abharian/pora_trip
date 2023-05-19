@@ -11,7 +11,9 @@ function changeLang(){
             elem.textContent = landingText[key][currentLang];
         }
     }
-};
+}
+
+changeLang();
 
 langBtns.forEach(btn=>{
     btn.addEventListener('click', (event)=>{
@@ -24,7 +26,6 @@ langBtns.forEach(btn=>{
     })
 });
 
-console.log(localStorage.getItem('language'))
 function resetActiveClass(arr, activeClass){
     arr.forEach(elem=>{
         elem.classList.remove(activeClass)

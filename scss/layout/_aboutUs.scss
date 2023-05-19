@@ -23,13 +23,13 @@
   margin-top: 30px;
 
   &_one {
-    width: 400px;
+    width: 473px;
     @include fonts(19px, 500, 2.1);
-    margin-right: 30px;
+    margin-right: 40px;
   }
 
   &_two {
-    width: 400px;
+    width: 435px;
     @include fonts(19px, 500, 2.1);
   }
 }
