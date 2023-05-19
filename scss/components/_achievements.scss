@@ -5,7 +5,7 @@ margin-top: 80px;
 
 &_element{
     &:not(:last-child){
-        margin-right: 40px;
+        margin-right: 35px;
     }
 }
 }
@@ -17,7 +17,7 @@ margin-top: 80px;
 }
 
 .element_text{
-    width: 180px;
+    width: 213px;
     color: var(--black-color);
     @include fonts(19px)
 }
