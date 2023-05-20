@@ -41,7 +41,6 @@
     position: absolute;
     bottom: 30px;
     left: 30px;
-
   }
 
   &_two {
@@ -66,6 +65,8 @@
 
   &_title {
     @include fonts(20px, 500, 1.2);
+
+
   }
 
   &_text {
