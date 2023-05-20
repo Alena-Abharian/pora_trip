@@ -255,7 +255,7 @@ h6 {
   color: var(--accent-color);
 }
 .insta_accent:hover, .insta_accent:focus {
-  color: #fd6767;
+  color: #C4C3C3;
 }
 
 .callBack {
@@ -573,7 +573,8 @@ h6 {
 .pop-up {
   position: relative;
   max-width: 500px;
-  padding: 45px;
+  height: 150px;
+  padding: 60px 40px;
   margin: 30px 15px;
   z-index: 1;
   background-color: #ffffff;
@@ -593,10 +594,11 @@ h6 {
   border: none;
   background-color: transparent;
   padding: 5px;
+  fill: #808080;
   cursor: pointer;
 }
 .close_btn-pop-up:hover, .close_btn-pop-up:focus {
-  color: #FF7474;
+  fill: #FF7474;
   transition: color 0.4s;
 }
 

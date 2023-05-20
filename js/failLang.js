@@ -108,4 +108,8 @@ export const landingText = {
         "ru": "Оставить заявку",
         "en": "Submit",
     },
+    "call-pop-up": {
+        "ru": "Пожалуйста, подождите. Мы свяжемся с вами в течение трех минут.",
+        "en": "Please wait. We will contact you in three minutes.",
+    },
 };

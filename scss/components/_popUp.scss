@@ -18,7 +18,8 @@
 .pop-up {
   position: relative;
   max-width: 500px;
-  padding: 45px;
+  height: 150px;
+  padding: 60px 40px;
   margin: 30px 15px;
   z-index: 1;
   background-color: #ffffff;
@@ -38,11 +39,12 @@
   border: none;
   background-color: transparent;
   padding: 5px;
+  fill: #808080;
   cursor: pointer;
 
   &:hover,
   &:focus{
-    color: #FF7474;
+    fill: #FF7474;
     transition: color 0.4s;
   }
 }
