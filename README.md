@@ -1,2 +1,3 @@
 # pora_trip
-landing page for Pora Trip.
+landing page for travel organizers "Pora Trip".
+(without adaptive layout)
