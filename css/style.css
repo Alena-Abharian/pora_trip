@@ -312,7 +312,7 @@ h6 {
   letter-spacing: 0.01em;
 }
 .nav_link:hover, .nav_link:focus {
-  color: #808080;
+  color: var(--accent-color);
 }
 .nav_item:not(:last-child) {
   margin-right: 50px;
@@ -334,7 +334,7 @@ h6 {
   margin-right: 25px;
 }
 .switcher-lang:hover, .switcher-lang:focus {
-  color: #808080;
+  color: var(--accent-color);
 }
 
 .lang_active {
@@ -372,7 +372,7 @@ h6 {
   position: relative;
 }
 .btn_play-red:hover, .btn_play-red:focus {
-  color: #808080;
+  color: var(--accent-color);
 }
 .btn_play-text {
   width: 120px;
@@ -517,6 +517,13 @@ h6 {
 .photo {
   position: relative;
 }
+.photo:hover .photo_btn {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.photo_img:hover photo_btn-1 {
+  opacity: 1;
+}
 .photo_count {
   position: absolute;
   color: var(--white-color);
@@ -544,6 +551,30 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0.01em;
   color: var(--white-color);
+}
+.photo_btn {
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: var(--white-color);
+}
+.photo_btn:hover {
+  color: var(--accent-color);
+  transition: color 0.3s;
+}
+.photo_btn-1 {
+  position: absolute;
+  top: 45%;
+  left: 30px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.photo_btn-2 {
+  position: absolute;
+  top: 45%;
+  right: 30px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .social {
@@ -574,7 +605,7 @@ h6 {
   position: relative;
   max-width: 500px;
   height: 150px;
-  padding: 60px 40px;
+  padding: 55px 40px;
   margin: 30px 15px;
   z-index: 1;
   background-color: #ffffff;

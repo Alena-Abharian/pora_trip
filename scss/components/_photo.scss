@@ -1,6 +1,19 @@
 .photo {
 position: relative;
 
+  &:hover &_btn {
+      opacity: 1;
+    transition: opacity .3s;
+  }
+
+  &_img{
+    &:hover photo_btn-1{
+      opacity: 1;
+    }
+  }
+
+
+
     &_count {
         position: absolute;
         color: var(--white-color);
@@ -26,4 +39,32 @@ position: relative;
         @include fonts (14px, 400);
         color: var(--white-color);
     }
+
+  &_btn{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    color: var(--white-color);
+
+    &:hover{
+      color: var(--accent-color);
+      transition: color .3s;
+    }
+
+    &-1{
+      position: absolute;
+      top: 45%;
+      left: 30px;
+      opacity: 0;
+      transition: opacity .3s;
+    }
+
+    &-2{
+      position: absolute;
+      top: 45%;
+      right: 30px;
+      opacity: 0;
+      transition: opacity .3s;
+    }
+  }
 }
