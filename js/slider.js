@@ -1,7 +1,7 @@
 const sliderImg = document.querySelector('[data-img]');
 const pagination = document.querySelector('.photo_count');
 
-const imgArr = ['imgMikli.jpg', 'Mikli2.jpg', 'Mikli3.jpg', 'Mikli4.jpg'];
+const imgArr = ['Mikli3.jpg','imgMikli.jpg', 'Mikli2.jpg', 'Mikli4.jpg'];
 const numberArr = ['1/4','2/4', '3/4', '4/4'];
 
 let i = 0; //current img index
