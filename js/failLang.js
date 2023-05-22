@@ -1,11 +1,11 @@
 export const landingText = {
     "main_title": {
-        "ru": "Треба вирватися з задушливого мегаполісу",
-        "en": "It's time to escape from the stuffy metropolis",
+        "ru": "Час подивитись найкрасивіші місця України",
+        "en": "Time to see the most beautiful places of Ukraine",
     },
     "main_text": {
-        "ru": "Відпочинок по всьому світу, який ви заслужили",
-        "en": "The worldwide vacation you deserve",
+        "ru": "Відпустка на яку ви заслуговуєте",
+        "en": "The vacation you deserve",
     },
     "our_tours": {
         "ru": "Наші тури",
@@ -28,26 +28,26 @@ export const landingText = {
         "en": "More details",
     },
     "video_title_1": {
-        "ru": "20км від Геленджика",
-        "en": "20 km from Gelendzhik",
+        "ru": "Місце історичних цінностей",
+        "en": "A place of historical value",
     },
     "video_text_1": {
-        "ru": "Чудове скупчення скель",
-        "en": "Wonderful collection of rocks",
+        "ru": "Кам'янець-Подільська фортеця",
+        "en": "Kamyanets-Podilsky fortress",
     },
     "video_title_2": {
-        "ru": "Північне сяйво",
-        "en": "Northern lights",
+        "ru": "Мертве рожеве озеро",
+        "en": "Dead pink lake",
     },
     "video_text_2": {
-        "ru": "2 тижні у Фінляндії",
-        "en": "2 weeks in Finland",
+        "ru": "Лемурійське озеро",
+        "en": "Lake Lemuria",
     },
     "about_1": {
-        "ru": "З любов'ю та турботою організуємо для вас довгоочікуваний відпочинок у найцікавіших куточках планети. " +
+        "ru": "З любов'ю та турботою організуємо для вас довгоочікуваний відпочинок у найцікавіших куточках України. " +
             "У далекому 2009 році ми з дружиною вперше організували тур для наших друзів.",
         "en": "With love and care we will organize for you a long-awaited vacation in\n" +
-            "          the most interesting corners of the planet. Back in 2008, my wife and\n" +
+            "          the most interesting corners of Ukraine. Back in 2008, my wife and\n" +
             "          I for the first time organized a tour for our friends.",
     },
     "about_2": {
@@ -91,16 +91,16 @@ export const landingText = {
         "en": "See more photos on our",
     },
     "photo_title": {
-        "ru": "Озеро на Міклі",
-        "en": "Lake on Mikli",
+        "ru": "Кварцовий кар'єр",
+        "en": "Quartz quarry",
     },
     "photo_text": {
-        "ru": "Серце Карелії",
-        "en": "Heart of Karelia",
+        "ru": "Харківська обл",
+        "en": "Kharkiv region",
     },
     "mikli_title": {
-        "ru": "Великий виїзд на хутір Міклі",
-        "en": "Great trip to Mikli Farm",
+        "ru": "Великий виїзд на Кварцовий кар'єр",
+        "en": "Great trip to Quartz quarry",
     },
     "mikli_text": {
         "ru": "Залишіть заявку і ми передзвонимо вам протягом трьох хвилин",
