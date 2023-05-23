@@ -48,7 +48,7 @@
         <h1 class="hero_title"><span data-lang="main_title">Time to see the most beautiful places of Ukraine</span><span class="dot">.</span></h1>
         <p class="hero_text" data-lang="main_text">The vacation you deserve</p>
 
-        <button class="btn" data-lang="main_btn">More details</button>
+        <button id="open_modal" class="btn" data-lang="main_btn">More details</button>
         </div>
 <div>
   <ul class="video">
@@ -207,7 +207,7 @@
         <p class="callBack_text" data-lang="mikli_text">Leave a request and we will call you back within three minutes</p>
         <form class="forma">
           <input class="forma_input" type="tel" name="phone" placeholder="+1(___) ___-____" />
-          <button id="open-pop-up" class="forma_btn btn" type="submit" data-lang="mikli_btn">Submit</button>
+          <button id="open_pop-up" class="forma_btn btn" type="submit" data-lang="mikli_btn">Submit</button>
         </form>
         </div>
         </div>
@@ -262,9 +262,9 @@
    <script type="module" src="./index.js"></script>
 
    <!--Pop-up-->
-   <div id="backdrop" class="backdrop">
+   <div id="backdrop_pop-up" class="backdrop">
  <div class="pop-up">
-     <button id="close-pop-up" class="close_btn-pop-up">
+     <button id="close_pop-up" class="close_btn">
          <svg width="15" height="15">
              <use href="./image/icon.svg#icon-cross"></use>
          </svg>
@@ -272,6 +272,52 @@
      <p class="text-pop-up" data-lang="call-pop-up">Please wait. We will contact you in three minutes.</p>
  </div>
   </div>
+
+   <!--Modal-->
+   <div id="backdrop_modal" class="backdrop">
+       <div class="modal">
+           <button id="close_modal" class="close_btn">
+               <svg width="15" height="15">
+                   <use href="./image/icon.svg#icon-cross"></use>
+               </svg>
+           </button>
+           <form class="form" name="registration" autocomplete="on">
+               <b class="form__title">Оставьте заявку, мы вам перезвоним</b>
+               <div class="form__wrap">
+                   <div class="form__field">
+                       <label class="form__label" for="user_name">Имя</label>
+                       <input class="form__input"
+                              type="text"
+                              name="name"
+                              required
+                              id="user_name"
+                              placeholder=" "/>
+                   </div>
+                   <div class="form__field">
+                       <label class="form__label" for="user_tel">Телефон</label>
+                       <input class="form__input"
+                              type="tel"
+                              name="tel"
+                              required
+                              id="user_tel"
+                              placeholder=" "/>
+                   </div>
+
+                   <div class="form__field">
+                       <label class="form__label" for="comment">Комментарий</label>
+                       <textarea class="form__area"
+                                 name="comment"
+                                 id="comment"
+                                 placeholder="Введите текст"></textarea>
+                   </div>
+               </div>
+     <div class="modal_btn-wrap">
+         <button class="btn" type="submit">Отправить</button>
+     </div>
+
+           </form>
+       </div>
+   </div>
 
   </body>
 </html>
