@@ -5,6 +5,12 @@ display: flex;
         &:not(:last-child) {
             margin-right: 25px;
           }
-
     }
+}
+
+.icon_img{
+  fill: #6f6f6f;
+  &:hover{
+    fill: #FF7474;
+  }
 }
