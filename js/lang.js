@@ -1,6 +1,6 @@
 import {landingText} from './failLang.js';
 
-const allLangs = ['ru', 'en'];
+const allLangs = ['ua', 'en'];
 let currentLang = localStorage.getItem('language') ||  checkBrowserLang() || 'en';
 const langBtns= document.querySelectorAll('[data-btn]');
 
@@ -34,9 +34,9 @@ function resetActiveClass(arr, activeClass){
 
 function checkActiveLangBtn(){
     switch (currentLang){
-        case "ru":
+        case "ua":
             document
-                .querySelector('[data-btn="ru"]')
+                .querySelector('[data-btn="ua"]')
                 .classList.add('lang_active');
             break;
         case "en":

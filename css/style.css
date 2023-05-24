@@ -584,6 +584,13 @@ h6 {
   margin-right: 25px;
 }
 
+.icon_img {
+  fill: #6f6f6f;
+}
+.icon_img:hover {
+  fill: #FF7474;
+}
+
 .backdrop {
   z-index: 99998;
   position: fixed;
@@ -677,7 +684,6 @@ h6 {
 }
 .form__input {
   max-height: 40px;
-  padding-left: 42px;
 }
 .form__area {
   width: 100%;
